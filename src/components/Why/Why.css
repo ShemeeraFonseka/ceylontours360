@@ -1,0 +1,91 @@
+.why-section {
+  background:  #E6FF94;
+  color: #006769;
+padding: 4rem 6rem;
+  text-align: center;
+}
+
+.why-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Card container */
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+/* Individual card */
+.why-card {
+  background: rgba(0, 0, 0, 0.1);
+ border: 2px solid #006769;
+   border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(95, 221, 56, 0.5);
+}
+
+/* Icon styling */
+.why-icon {
+  font-size: 3rem;
+  color: #40A578;
+  margin-bottom: 1rem;
+}
+
+/* Title */
+.why-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+/* Description */
+.why-card p {
+  font-size: 1rem;
+  color: #40A578;
+  line-height: 1.6;
+}
+
+
+
+.contact-btn {
+  background: linear-gradient(90deg, #40A578, #006769);
+  color: #E6FF94;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(95, 221, 56, 0.5);
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .why-section {
+    padding: 3rem 1rem;
+  }
+
+  .why-section h2 {
+    font-size: 2rem;
+  }
+
+  .why-card {
+    padding: 1.5rem;
+  }
+}
